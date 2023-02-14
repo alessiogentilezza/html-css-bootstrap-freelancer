@@ -9,7 +9,12 @@
     border: red 1px solid;
 }
 
+.debug .box{
+    height: 300px;
+    border: orange 1px solid;
 
+
+}
 
 /* regole di debug */
 
@@ -41,6 +46,6 @@ main {
 }
 
 .ms_line {
-    border-bottom: white 2px solid;
+    border-bottom: 2px solid;
     width: 60px;
 }
