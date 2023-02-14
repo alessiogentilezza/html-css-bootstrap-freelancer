@@ -10,9 +10,6 @@
 }
 
 
-#start-bootstrap {
-    height: 500px;
-}
 
 /* regole di debug */
 
@@ -31,6 +28,19 @@ header {
     background-color: var(--ms_header-color);
 }
 
-#start-bootstrap {
+main {
+    padding-top: 70px;
+}
+
+.ms_green-color {
     background-color: var(--ms_green-color);
+}
+
+#start-bootstrap img {
+    height: 200px;
+}
+
+.ms_line {
+    border-bottom: white 2px solid;
+    width: 60px;
 }
