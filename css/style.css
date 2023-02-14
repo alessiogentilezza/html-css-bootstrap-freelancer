@@ -47,3 +47,7 @@ main {
 #about .container {
     padding: 0 80px;
 }
+
+.navbar-toggler-icon {
+    filter: invert(1)
+}
