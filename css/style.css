@@ -2,6 +2,9 @@
     --ms_header-color: #2c3e50;
     --ms_green-color: #1abc9c;
     --ms_blue-color: #2c3e50;
+
+
+    
 }
 
 /* regole di debug */
@@ -11,7 +14,7 @@
 }
 
 .debug .box{
-    height: 300px;
+    height: 200px;
     border: orange 1px solid;
 
 }
@@ -62,4 +65,13 @@ main {
     border-right: 0;
     border-radius: 0;
 
+}
+
+
+#footer-top {
+    background-color: #3a546d;
+}
+
+#footer-bottom {
+    background-color: #2c3e50;
 }
