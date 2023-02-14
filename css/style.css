@@ -13,15 +13,9 @@
     height: 300px;
     border: orange 1px solid;
 
-
 }
 
 /* regole di debug */
-
-
-
-
-
 
 
 
@@ -48,4 +42,8 @@ main {
 .ms_line {
     border-bottom: 2px solid;
     width: 60px;
+}
+
+#about .container {
+    padding: 0 80px;
 }
