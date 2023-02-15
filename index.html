@@ -15,6 +15,12 @@
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
     <title>bootstrap-freelancer</title>
 </head>
 
@@ -30,16 +36,16 @@
                 </button>
                 <div class="collapse navbar-collapse flex-grow-0" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link active text-white" aria-current="page" href="#">PORTFOLIO</a>
-                        <a class="nav-link text-white" href="#">ABOUT</a>
-                        <a class="nav-link text-white" href="#">CONTACT</a>
+                        <a class="nav-link" href="#">PORTFOLIO</a>
+                        <a class="nav-link" href="#">ABOUT</a>
+                        <a class="nav-link" href="#">CONTACT</a>
                     </div>
                 </div>
             </div>
         </nav>
     </header>
     <main>
-        <section id="start-bootstrap" class="ms_green-color text-white text-center py-5">
+        <section id="start-bootstrap" class="ms_green-color text-white text-center pb-5">
             <img src="./img/avatar.svg" alt="">
             <h1 class="mb-0">START BOOTSTRAP</h1>
             <div class="d-flex justify-content-center align-items-center">
@@ -47,7 +53,7 @@
                 <i class="fa-solid fa-star px-2 py-3 fs-3"></i>
                 <div class="ms_line"></div>
             </div>
-            <p class="text-uppercase mb-0">Lorem, ipsum dolor - Lorem, ipsum dolor - Lorem, ipsum dolor</p>
+            <p class="text-uppercase mb-0">Graphic Artist - Web Designer - Illustrator</h4>
 
         </section>
 
@@ -62,28 +68,63 @@
 
             <div class="container">
                 <div class="row g-3">
-                    <div class="col-12 col-md-6 col-lg-4 ">
-                        <img src="./img/cabin.png" class="img-fluid rounded-3" alt="">
-                    </div>
                     <div class="col-12 col-md-6 col-lg-4">
-                        <img src="./img/cake.png" class="img-fluid rounded-3" alt="">
+                        <div class="wrapper">
+                            <img src="./img/cabin.png" class="img-fluid rounded-3" alt="">
+                            <div class="ms_overlay ms_d-none rounded-3">
+                                <i class="fa-solid fa-plus text-white"></i>
+                            </div>
+                        </div>
                     </div>
+
                     <div class="col-12 col-md-6 col-lg-4">
-                        <img src="./img/circus.png" class="img-fluid rounded-3" alt="">
+                        <div class="wrapper">
+                            <img src="./img/cake.png" class="img-fluid rounded-3" alt="">
+                            <div class="ms_overlay ms_d-none rounded-3">
+                                <i class="fa-solid fa-plus text-white"></i>
+                            </div>
+                        </div>
                     </div>
+
                     <div class="col-12 col-md-6 col-lg-4">
-                        <img src="./img/game.png" class="img-fluid rounded-3" alt="">
+                        <div class="wrapper">
+                            <img src="./img/circus.png" class="img-fluid rounded-3" alt="">
+                            <div class="ms_overlay ms_d-none rounded-3">
+                                <i class="fa-solid fa-plus text-white"></i>
+                            </div>
+                        </div>
                     </div>
+
                     <div class="col-12 col-md-6 col-lg-4">
-                        <img src="./img/safe.png" class="img-fluid rounded-3" alt="">
+                        <div class="wrapper">
+                            <img src="./img/game.png" class="img-fluid rounded-3" alt="">
+                            <div class="ms_overlay ms_d-none rounded-3">
+                                <i class="fa-solid fa-plus text-white"></i>
+                            </div>
+                        </div>
                     </div>
+
                     <div class="col-12 col-md-6 col-lg-4">
-                        <img src="./img/submarine.png" class="img-fluid rounded-3" alt="">
+                        <div class="wrapper">
+                            <img src="./img/safe.png" class="img-fluid rounded-3" alt="">
+                            <div class="ms_overlay ms_d-none rounded-3">
+                                <i class="fa-solid fa-plus text-white"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="wrapper">
+                            <img src="./img/submarine.png" class="img-fluid rounded-3" alt="">
+                            <div class="ms_overlay ms_d-none rounded-3">
+                                <i class="fa-solid fa-plus text-white"></i>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-
         </section>
+
         <section id="about" class="ms_green-color text-white text-center py-5">
             <h2 class="mb-0">ABOUT</h2>
             <div class="d-flex justify-content-center align-items-center">
@@ -131,80 +172,75 @@
                             placeholder="Email Address">
                     </div>
                     <div class="mb-3">
-                        <input type="tel" class="form-control ms_border-bottom px-0" id="phone"
-                            placeholder="Phone Number">
+                        <input type="tel" class="form-control c px-0" id="phone" placeholder="Phone Number">
                     </div>
                     <div class="mb-3">
                         <textarea class="form-control ms_border-bottom px-0" id="message" rows="3"
                             placeholder="Message"></textarea>
                     </div>
-
-                    <button type="button" class="btn btn-info ms_green-color text-white">Send</button>
+                    <div>
+                        <button type="submit" class="btn btn-info ms_green-color text-white">Send</button>
+                    </div>
                 </form>
-
             </div>
 
         </section>
-
-
-
-
     </main>
-
 
     <footer>
         <div id="footer-top" class="text-white text-center py-4">
             <div class="container">
                 <div class="row g-3">
                     <div class="col-12 col-md-4">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum optio hic sapiente nisi
-                            fugiat eaque eveniet alias voluptatum exercitationem facere.
+
+                        <h4 class="text-uppercase mb-4">Location</h4>
+                        <p class="lead mb-0">
+                            2215 John Daniel Drive
+                            <br>
+                            Clark, MO 65243
                         </p>
+
                     </div>
                     <div class="col-12 col-md-4">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum optio hic sapiente nisi
-                            fugiat eaque eveniet alias voluptatum exercitationem facere.
-                        </p>
+                        <h4 class="text-uppercase mb-4">Around the Web</h4>
+                        <div class="icon-content">
+                            <i class="fa-brands fa-facebook"></i>
+                        </div>
+                        <div class="icon-content">
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                        <div class="icon-content">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </div>
+                        <div class="icon-content">
+                            <i class="fa-solid fa-basketball"></i>
+                        </div>
+
                     </div>
                     <div class="col-12 col-md-4">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum optio hic sapiente nisi
-                            fugiat eaque eveniet alias voluptatum exercitationem facere.
+                        <h4 class="text-uppercase mb-4">About Freelancer</h4>
+                        <p class="lead mb-0">
+                            Freelance is a free to use, MIT licensed Bootstrap theme created by
+                            <a href="http://startbootstrap.com" class="ms_green-color-text">Start Bootstrap</a>
+                            .
                         </p>
                     </div>
                 </div>
             </div>
         </div>
 
-
         <div id="footer-bottom" class="text-white text-center py-4">
-            <p class="mb-0">Lorem ipsum dolor sit amet.</p>
+            <p class="mb-0">
+                Copyright © Your Website 2022
+            </p>
         </div>
 
-
     </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
+        
 </body>
 
 </html>
